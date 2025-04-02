@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaCraft</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <div id="game-container">
+        <div id="ui-overlay">
+            <div id="crosshair">+</div>
+            <div id="inventory-bar"></div>
+        </div>
+    </div>
+
+    <!-- Bibliotecas de geração de mundo -->
+    <script src="minelibs/utils/noiseUtils.js"></script>
+    <script src="minelibs/utils/simplexNoise.js"></script>
+    <script src="minelibs/utils/perlinNoise.js"></script>
+    <script src="minelibs/world/chunk.js"></script>
+    <script src="minelibs/world/caveGenerator.js"></script>
+    <script src="minelibs/world/mountainGenerator.js"></script>
+    <script src="minelibs/world/worldGenerator.js"></script>
+    <script src="minelibs/world/worldGeneration.js"></script>
+
+    <!-- Componentes do motor do jogo -->
+    <script src="js/engine/renderer.js"></script>
+    <script src="js/engine/physics.js"></script>
+    <script src="js/engine/input.js"></script>
+    <script src="js/engine/audio.js"></script>
+
+    <!-- Componentes do jogo -->
+    <script src="js/components/block.js"></script>
+    <script src="js/components/player.js"></script>
+    <script src="js/components/inventory.js"></script>
+    <script src="js/components/ui.js"></script>
+
+    <!-- Arquivos principais -->
+    <script src="js/game.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

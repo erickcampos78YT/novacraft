@@ -1,0 +1,39 @@
+NovaCraft-main/
+│
+├── index.html                      # Arquivo HTML principal na raiz
+│
+├── css/
+│   └── style.css                   # Estilos CSS
+│
+├── js/
+│   ├── main.js                     # Ponto de entrada do jogo
+│   ├── game.js                     # Classe principal do jogo
+│   │
+│   ├── engine/                     # Componentes do motor do jogo
+│   │   ├── renderer.js             # Sistema de renderização
+│   │   ├── physics.js              # Sistema de física
+│   │   ├── input.js                # Sistema de entrada
+│   │   └── audio.js                # Sistema de áudio
+│   │
+│   └── components/                 # Componentes do jogo
+│       ├── player.js               # Classe do jogador
+│       ├── block.js                # Sistema de blocos
+│       ├── inventory.js            # Sistema de inventário
+│       └── ui.js                   # Interface do usuário
+│
+├── minelibs/                       # Bibliotecas de geração de mundo
+│   ├── utils/
+│   │   ├── noiseUtils.js           # Utilitários de ruído
+│   │   ├── simplexNoise.js         # Implementação do ruído Simplex
+│   │   └── perlinNoise.js          # Implementação do ruído Perlin
+│   │
+│   └── world/
+│       ├── chunk.js                # Gerenciamento de chunks
+│       ├── caveGenerator.js        # Geração de cavernas
+│       ├── mountainGenerator.js    # Geração de montanhas
+│       ├── worldGenerator.js       # Gerador de mundo
+│       └── worldGeneration.js      # Algoritmos de geração de mundo
+│
+└── assets/                         # Recursos do jogo
+    ├── textures/                   # Texturas
+    └── sounds/                     # Sons e música
